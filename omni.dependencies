@@ -1,0 +1,67 @@
+[
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_hardware_qcom_display-caf-msm8996",
+    "target_path": "hardware/qcom/display-caf-msm8996",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_hardware_qcom_media-caf-msm8996",
+    "target_path": "hardware/qcom/media-caf-msm8996",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_hardware_qcom_audio-caf-msm8996",
+    "target_path": "hardware/qcom/audio-caf-msm8996",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_hardware_ril",
+    "target_path": "hardware/ril-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_vendor_nxp-nfc_opensource_frameworks",
+    "target_path": "vendor/nxp-nfc/opensource/frameworks",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_vendor_nxp-nfc_opensource_libnfc-nci",
+    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_vendor_nxp-nfc_opensource_Nfc",
+    "target_path": "vendor/nxp-nfc/opensource/Nfc",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_frameworks_av",
+    "target_path": "frameworks/av-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "repository": "android_frameworks_native",
+    "target_path": "frameworks/native-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "repository": "android_external_libnfnetlink",
+    "target_path": "external/libnfnetlink",
+    "revision": "android-6.0"
+  },
+  {
+    "repository": "android_external_libnetfilter_conntrack",
+    "target_path": "external/libnetfilter_conntrack",
+    "revision": "android-6.0"
+  }
+]
