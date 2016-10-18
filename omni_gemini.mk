@@ -14,18 +14,22 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit APNs list
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit some omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from gemini device
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
-# Inherit some AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_gemini
+PRODUCT_NAME := omni_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5

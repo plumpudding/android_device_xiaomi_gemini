@@ -367,27 +367,6 @@ vendor/lib/libxml.so
 -etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
-# DPM
-bin/dpmd
-etc/dpm/dpm.conf
-etc/dpm/nsrm/NsrmConfiguration.xml
-etc/permissions/com.qti.dpmframework.xml
-etc/permissions/dpmapi.xml
-framework/com.qti.dpmframework.jar
-framework/dpmapi.jar
-framework/tcmclient.jar
--priv-app/dpmserviceapp/dpmserviceapp.apk|c1857ea53c173de4bcc265e24aa2d2631a62c5e2
-vendor/lib64/libdpmctmgr.so
-vendor/lib64/libdpmfdmgr.so
-vendor/lib64/libdpmframework.so
-vendor/lib64/libdpmnsrm.so
-vendor/lib64/libdpmtcm.so
-vendor/lib/libdpmctmgr.so
-vendor/lib/libdpmfdmgr.so
-vendor/lib/libdpmframework.so
-vendor/lib/libdpmnsrm.so
-vendor/lib/libdpmtcm.so
-
 # DRM and SEE
 bin/qseecomd
 vendor/bin/qseeproxydaemon
@@ -692,7 +671,6 @@ vendor/lib/libsmemlog.so
 -app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
 -app/fastdormancy/fastdormancy.apk
--app/QtiTelephonyService/QtiTelephonyService.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/port-bridge
@@ -709,8 +687,6 @@ etc/permissions/telephonyservice.xml
 framework/embmslibrary.jar
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
-framework/qti-telephony-common.jar|97d23b52db3773005e51eac7b9df1701c99a416c
-framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
 vendor/lib64/libconfigdb.so
